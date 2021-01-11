@@ -1,0 +1,44 @@
+/* ::  0.3 Top Area CSS */
+.top-area {
+    padding: .5rem 0;
+    background-color: $mainBg;
+    z-index: 10;
+    color:$white;
+    font-weight: 300;
+
+    .call-us,
+    .mail-us {
+        color: rgba($white, .9);
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 1rem;
+        @include transition-duration(500ms);
+
+        &:hover,
+        &:focus {
+            text-decoration: none;
+            color: $white;
+        }
+    }
+
+    .top-area-icon {
+        padding-right: .5rem;
+    }
+    .top-area-icon-text {
+
+    }
+    .lang-area {
+
+        .top-area-lang-img {
+            margin-right: .5rem;
+        }
+
+        .top-area-lang-text {
+            margin-right: .5rem;
+        }
+        
+        .top-area-lang-icon {
+
+        }
+    }
+}

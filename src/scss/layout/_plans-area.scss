@@ -1,0 +1,31 @@
+/* ::  0.6 Plans Area CSS */
+.plans-area {
+    text-align: center;
+    padding-bottom: 3rem;
+
+    .plans-area-title {
+        text-transform: capitalize;
+    }
+    .plans-area-text {
+        width: 90%;
+        margin: 0 auto;
+        color: $gray;
+        font-weight: 300;
+    }
+    .plans-area-content {
+        padding-top: 2.5rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+
+        .plans-area-content-icon {
+            color: $mainBg;
+        }
+        .plans-area-content-title {
+            padding-top: 1rem;
+        }
+        .plans-area-content-text {
+            color: $gray;
+            font-weight: 300;
+        }
+    }
+}

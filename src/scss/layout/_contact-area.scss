@@ -1,0 +1,21 @@
+/* ::  0.9 Contact Area CSS */
+.contact-area {
+    padding: 3rem 0;
+    text-align: center;
+
+    .contact-area-title {
+        text-transform: capitalize;
+    }
+    .contact-area-text {
+        color: $gray;
+        width: 90%;
+        margin: 0 auto;
+        font-weight: 300;
+    }
+    .contact-area-btn {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-top: 1rem;
+        @include transition-duration(500ms);
+    }
+}

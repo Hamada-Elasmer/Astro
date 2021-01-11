@@ -1,0 +1,38 @@
+/* ::  0.4 Navbar CSS */
+.navbar {
+    z-index: 10;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+.navbar-light {
+
+    .navbar-nav {
+        margin-left: auto;
+
+        .nav-item {
+            margin-right: .5rem;
+        }
+
+        .nav-link {
+            color: rgba($dark, .8);
+            @include transition-duration(500ms);
+
+            &:hover,
+            &:focus {
+                color: $mainBg;
+            }
+        }
+
+        .show > .nav-link, .nav-link.active {
+            color: $mainBg;
+        }
+
+        .btn {
+            @include transition-duration(500ms);
+
+            i {
+                color: $white;
+            }
+        }
+    }
+}
