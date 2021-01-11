@@ -68,4 +68,4 @@ exports.imageTask = imageTask;
 exports.jsTask = jsTask;
 exports.jsbootstarp = jsbootstarp;
 exports.fontTask = fontTask;
-exports.default = series(parallel(pugTask, sassTask, jsTask), watchTask);
+exports.default = series(parallel(pugTask, sassTask, jsTask, imageTask, fontTask, jsbootstarp), watchTask);
