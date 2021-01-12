@@ -1,16 +1,21 @@
 /* ::  0.7 Domin Area CSS */
 .domin-area {
-    padding: 3rem 0;
+    padding-top: 1rem;
     text-align: center !important;
-    .domin-area-text {
+    .domin-area-title {
+        padding-top: 1rem;
         text-transform: capitalize;
         margin-bottom: 0;
+        padding-bottom: 1rem;
     }
-    .domin-area-title {
+    .domin-area-text {
         color: $gray;
         padding-bottom: 1rem;
     }
     .btn {
         @include transition-duration(500ms);
     }
+}
+.domin-feature-area {
+    padding-bottom: 2rem;
 }

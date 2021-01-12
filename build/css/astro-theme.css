@@ -13044,18 +13044,23 @@ textarea.form-control-lg {
 
 /* ::  0.7 Domin Area CSS */
 .domin-area {
-  padding: 3rem 0;
+  padding-top: 1rem;
   text-align: center !important; }
-  .domin-area .domin-area-text {
-    text-transform: capitalize;
-    margin-bottom: 0; }
   .domin-area .domin-area-title {
+    padding-top: 1rem;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    padding-bottom: 1rem; }
+  .domin-area .domin-area-text {
     color: #637988;
     padding-bottom: 1rem; }
   .domin-area .btn {
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
     transition-duration: 500ms; }
+
+.domin-feature-area {
+  padding-bottom: 2rem; }
 
 /* ::  0.8 Price Area CSS */
 .price-area {
@@ -13294,7 +13299,8 @@ textarea.form-control-lg {
       .our-features-area .our-features-content .our-features-content-slide .our-features-content-slide-title {
         -webkit-transition: 500ms;
         -o-transition: 500ms;
-        transition: 500ms; }
+        transition: 500ms;
+        margin-bottom: 0.15rem; }
       .our-features-area .our-features-content .our-features-content-slide .our-features-content-slide-text {
         color: #637988; }
 
@@ -13358,5 +13364,15 @@ textarea.form-control-lg {
       text-align: left;
       color: #637988;
       margin-bottom: .5rem; }
+
+/* ::  15.0 Our Team Area CSS */
+.our-package-area {
+  text-align: center;
+  padding-top: 1rem; }
+  .our-package-area .our-package-area-title {
+    padding-top: 1rem; }
+  .our-package-area .our-package-area-text {
+    color: #637988;
+    padding-bottom: 1rem; }
 
 /*# sourceMappingURL=astro-theme.css.map */
