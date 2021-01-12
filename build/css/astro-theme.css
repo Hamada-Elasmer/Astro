@@ -13157,7 +13157,7 @@ textarea.form-control-lg {
     left: 0;
     bottom: -3px;
     width: 100%;
-    height: 129px; }
+    height: 104px; }
   .footer-area .footer-area-title {
     margin-bottom: 0;
     padding-top: 1rem;
@@ -13211,7 +13211,7 @@ textarea.form-control-lg {
     bottom: 0;
     z-index: 1000;
     color: #212529;
-    margin: 0.5% 15%; }
+    margin: 0 17%; }
     .footer-area .footer-area-copy i {
       color: #dc3545; }
     .footer-area .footer-area-copy a {
