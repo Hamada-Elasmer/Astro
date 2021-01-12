@@ -17564,7 +17564,7 @@ p {
 
 .price-area .price-area-content .card .price-card-top .price-card-top-title {
   margin-bottom: 0;
-  color: #fff;
+  color: #fff !important;
 }
 
 .price-area .price-area-content .card .card-body {
@@ -18437,26 +18437,6 @@ p {
   margin-right: .5rem;
 }
 
-.break-line {
-  box-shadow: 0 2px 17px 3px rgba(99, 121, 136, 0.2);
-  margin: 0 auto;
-  width: 80% !important;
-}
-
-.btn-astro {
-  color: #fff !important;
-  background-color: #006266;
-  border: #006266;
-}
-
-.btn-astro:hover {
-  background: rgba(0, 98, 102, 0.8);
-}
-
-p {
-  color: #637988;
-}
-
 /* ::  9.0 Contact Area CSS */
 .contact-area {
   padding: 3rem 0;
@@ -18685,6 +18665,26 @@ p {
   font-weight: 300;
 }
 
+.break-line {
+  box-shadow: 0 2px 17px 3px rgba(99, 121, 136, 0.2);
+  margin: 0 auto;
+  width: 80% !important;
+}
+
+.btn-astro {
+  color: #fff !important;
+  background-color: #006266;
+  border: #006266;
+}
+
+.btn-astro:hover {
+  background: rgba(0, 98, 102, 0.8);
+}
+
+p {
+  color: #637988;
+}
+
 /* ::  0.7 Domin Area CSS */
 .domin-area {
   padding-top: 1rem;
@@ -18811,7 +18811,7 @@ p {
 
 .price-area .price-area-content .card .price-card-top .price-card-top-title {
   margin-bottom: 0;
-  color: #fff;
+  color: #fff !important;
 }
 
 .price-area .price-area-content .card .card-body {
