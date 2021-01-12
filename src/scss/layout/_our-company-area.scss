@@ -1,0 +1,22 @@
+/* ::  14.0 Our Team Area CSS */
+.our-company-area{
+    text-align: center;
+    padding: 1rem;
+    .our-company-area-title {
+        padding-top: 1rem;
+    }
+    .our-company-area-content {
+        padding-top: 1rem;
+        .our-company-area-content-carusel {
+            padding-top: 3rem;
+        }
+        .our-company-right-side {
+            .our-company-right-side {
+                text-align: left;
+                color: $gray;
+                margin-bottom: .5rem;
+                
+            }
+        }
+    }
+}

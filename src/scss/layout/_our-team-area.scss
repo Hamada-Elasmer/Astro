@@ -1,0 +1,64 @@
+/* ::  13.0 Our Team Area CSS */
+.our-team-area {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+    .our-team-area-title {
+        padding-bottom: 1rem;
+        
+    }
+    .our-team-area-text {
+        padding-top: 2rem;
+        color: $gray;
+
+    }
+    .our-team-area-content {
+        padding-top: 1rem;
+
+        .card {
+            border-radius: .25rem;
+
+            .card-body{
+                padding: 0;
+
+                .card-image{
+                    background-color: $mainBg;
+                    width: 100%;
+                    height: 200px;
+                    padding: 0;
+                    border-top-right-radius: .25rem;
+                    border-top-left-radius: .25rem;
+                    position: relative;
+
+                    img {
+                        bottom: 0;
+                        position: absolute;
+                        margin: auto;
+                        left: 30%;
+                    }
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        background-image: url(../images/s-cloud.png);
+                        background-size: cover;
+                        background-position: bottom;
+                        left: 0;
+                        bottom: -3px;
+                        width: 100%;
+                        height: 40px;
+                    }
+                }
+                .our-team-card-info {
+
+                    .our-team-card-info-title {
+                        @include transition(500ms);
+                    }
+                    .our-team-card-info-text {
+                        color: $gray;
+                    }
+                }
+            }
+        }
+    }
+}

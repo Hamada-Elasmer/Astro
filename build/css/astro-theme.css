@@ -6792,7 +6792,7 @@ readers do not read off random characters that represent icons */
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
-  --bs-pink: #B33771;
+  --bs-pink: #d63384;
   --bs-red: #dc3545;
   --bs-orange: #fd7e14;
   --bs-yellow: #ffc107;
@@ -6981,7 +6981,7 @@ pre {
 
 code {
   font-size: 0.875em;
-  color: #B33771;
+  color: #d63384;
   word-wrap: break-word; }
   a > code {
     color: inherit; }
@@ -12819,10 +12819,10 @@ textarea.form-control-lg {
 
 .btn-astro {
   color: #fff !important;
-  background-color: #B33771;
-  border: #B33771; }
+  background-color: #006266;
+  border: #006266; }
   .btn-astro:hover {
-    background: rgba(179, 55, 113, 0.8); }
+    background: rgba(0, 98, 102, 0.8); }
 
 /* :: 0.1 Preloader CSS */
 #preloader {
@@ -12856,7 +12856,7 @@ textarea.form-control-lg {
   animation: load7 1.8s infinite ease-in-out; }
 
 .loader {
-  color: #B33771;
+  color: #006266;
   font-size: 6px;
   position: relative;
   -webkit-transform: translateZ(0);
@@ -12919,7 +12919,7 @@ textarea.form-control-lg {
 /* ::  0.3 Top Area CSS */
 .top-area {
   padding: .5rem 0;
-  background-color: #B33771;
+  background-color: #006266;
   z-index: 10;
   color: #fff;
   font-weight: 300; }
@@ -12961,10 +12961,10 @@ textarea.form-control-lg {
     transition-duration: 500ms;
     font-weight: 400; }
     .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-      color: #B33771; }
+      color: #006266; }
   .navbar-light .navbar-nav .show > .nav-link,
   .navbar-light .navbar-nav .nav-link.active {
-    color: #B33771; }
+    color: #006266; }
   .navbar-light .navbar-nav .btn {
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
@@ -12974,7 +12974,7 @@ textarea.form-control-lg {
 
 /* ::  0.5 Header Area CSS */
 .header-area {
-  background-color: #B33771;
+  background-color: #006266;
   color: #fff;
   padding-top: 3rem;
   position: relative;
@@ -13035,7 +13035,7 @@ textarea.form-control-lg {
     padding-right: 1rem;
     padding-left: 1rem; }
     .plans-area .plans-area-content .plans-area-content-icon {
-      color: #B33771; }
+      color: #006266; }
     .plans-area .plans-area-content .plans-area-content-title {
       padding-top: 1rem; }
     .plans-area .plans-area-content .plans-area-content-text {
@@ -13069,7 +13069,7 @@ textarea.form-control-lg {
         position: absolute;
         width: 100px;
         height: 100px;
-        background-color: #B33771;
+        background-color: #006266;
         color: #fff;
         border-radius: 50%;
         top: -40px;
@@ -13084,7 +13084,7 @@ textarea.form-control-lg {
         padding: 0;
         padding-bottom: 1.5rem; }
         .price-area .price-area-content .card .card-body .card-image {
-          background-color: #B33771;
+          background-color: #006266;
           width: 100%;
           height: 170px;
           padding: 0;
@@ -13153,7 +13153,7 @@ textarea.form-control-lg {
 .footer-area {
   padding-top: 1rem;
   padding-bottom: 7rem;
-  background-color: #B33771;
+  background-color: #006266;
   position: relative;
   color: #fff; }
   .footer-area::after {
@@ -13229,7 +13229,7 @@ textarea.form-control-lg {
       transition: 500ms;
       text-decoration: none; }
       .footer-area .footer-area-copy a:hover {
-        color: #B33771; }
+        color: #006266; }
 
 /* ::  11 Service Slide CSS */
 .services-slide-area {
@@ -13241,7 +13241,7 @@ textarea.form-control-lg {
       position: relative; }
       .services-slide-area .services-slide-content .services-slide-img .services-slide-disc {
         position: absolute;
-        background-color: #B33771;
+        background-color: #006266;
         color: #fff;
         height: 90px;
         width: 300px;
@@ -13283,19 +13283,80 @@ textarea.form-control-lg {
     justify-content: center;
     text-align: left; }
     .our-features-area .our-features-content .our-features-icon {
-      background-color: #B33771;
+      background-color: #006266;
       border-radius: 50%;
       padding: 1rem;
       color: #fff; }
     .our-features-area .our-features-content .our-features-content-slide {
       margin-left: .5rem; }
       .our-features-area .our-features-content .our-features-content-slide:hover .our-features-content-slide-title {
-        color: #B33771; }
+        color: #006266; }
       .our-features-area .our-features-content .our-features-content-slide .our-features-content-slide-title {
         -webkit-transition: 500ms;
         -o-transition: 500ms;
         transition: 500ms; }
       .our-features-area .our-features-content .our-features-content-slide .our-features-content-slide-text {
         color: #637988; }
+
+/* ::  13.0 Our Team Area CSS */
+.our-team-area {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+  .our-team-area .our-team-area-title {
+    padding-bottom: 1rem; }
+  .our-team-area .our-team-area-text {
+    padding-top: 2rem;
+    color: #637988; }
+  .our-team-area .our-team-area-content {
+    padding-top: 1rem; }
+    .our-team-area .our-team-area-content .card {
+      border-radius: .25rem; }
+      .our-team-area .our-team-area-content .card .card-body {
+        padding: 0; }
+        .our-team-area .our-team-area-content .card .card-body .card-image {
+          background-color: #006266;
+          width: 100%;
+          height: 200px;
+          padding: 0;
+          border-top-right-radius: .25rem;
+          border-top-left-radius: .25rem;
+          position: relative; }
+          .our-team-area .our-team-area-content .card .card-body .card-image img {
+            bottom: 0;
+            position: absolute;
+            margin: auto;
+            left: 30%; }
+          .our-team-area .our-team-area-content .card .card-body .card-image::after {
+            content: "";
+            position: absolute;
+            background-image: url(../images/s-cloud.png);
+            background-size: cover;
+            background-position: bottom;
+            left: 0;
+            bottom: -3px;
+            width: 100%;
+            height: 40px; }
+        .our-team-area .our-team-area-content .card .card-body .our-team-card-info .our-team-card-info-title {
+          -webkit-transition: 500ms;
+          -o-transition: 500ms;
+          transition: 500ms; }
+        .our-team-area .our-team-area-content .card .card-body .our-team-card-info .our-team-card-info-text {
+          color: #637988; }
+
+/* ::  14.0 Our Team Area CSS */
+.our-company-area {
+  text-align: center;
+  padding: 1rem; }
+  .our-company-area .our-company-area-title {
+    padding-top: 1rem; }
+  .our-company-area .our-company-area-content {
+    padding-top: 1rem; }
+    .our-company-area .our-company-area-content .our-company-area-content-carusel {
+      padding-top: 3rem; }
+    .our-company-area .our-company-area-content .our-company-right-side .our-company-right-side {
+      text-align: left;
+      color: #637988;
+      margin-bottom: .5rem; }
 
 /*# sourceMappingURL=astro-theme.css.map */
