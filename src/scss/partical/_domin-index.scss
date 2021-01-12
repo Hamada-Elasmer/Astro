@@ -1,6 +1,7 @@
 /* ::  0.7 Domin Area CSS */
 .domin-area {
     padding-top: 1rem;
+    padding-bottom: 2rem;
     text-align: center !important;
     .domin-area-title {
         padding-top: 1rem;
@@ -11,6 +12,7 @@
     .domin-area-text {
         color: $gray;
         padding-bottom: 1rem;
+        padding-top: 0;
     }
     .btn {
         @include transition-duration(500ms);

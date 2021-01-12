@@ -13045,6 +13045,7 @@ textarea.form-control-lg {
 /* ::  0.7 Domin Area CSS */
 .domin-area {
   padding-top: 1rem;
+  padding-bottom: 2rem;
   text-align: center !important; }
   .domin-area .domin-area-title {
     padding-top: 1rem;
@@ -13053,7 +13054,8 @@ textarea.form-control-lg {
     padding-bottom: 1rem; }
   .domin-area .domin-area-text {
     color: #637988;
-    padding-bottom: 1rem; }
+    padding-bottom: 1rem;
+    padding-top: 0; }
   .domin-area .btn {
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
