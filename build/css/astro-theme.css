@@ -18061,254 +18061,6 @@ p {
   margin-bottom: 0;
 }
 
-.break-line {
-  box-shadow: 0 2px 17px 3px rgba(99, 121, 136, 0.2);
-  margin: 0 auto;
-  width: 80% !important;
-}
-
-.btn-astro {
-  color: #fff !important;
-  background-color: #006266;
-  border: #006266;
-}
-
-.btn-astro:hover {
-  background: rgba(0, 98, 102, 0.8);
-}
-
-p {
-  color: #637988;
-}
-
-/* ::  9.0 Contact Area CSS */
-.contact-area {
-  padding: 3rem 0;
-  text-align: center;
-}
-
-.contact-area .contact-area-title {
-  text-transform: capitalize;
-}
-
-.contact-area .contact-area-text {
-  color: #637988;
-  width: 90%;
-  margin: 0 auto;
-  font-weight: 300;
-}
-
-.contact-area .contact-area-btn {
-  padding-left: 2rem;
-  padding-right: 2rem;
-  margin-top: 1rem;
-  -webkit-transition-duration: 500ms;
-  -o-transition-duration: 500ms;
-  transition-duration: 500ms;
-}
-
-.contact-area-form {
-  padding-top: 1rem;
-  text-align: center;
-}
-
-.contact-area-form .contact-area-form-title {
-  padding-top: 1rem;
-}
-
-.contact-area-form form {
-  margin: 1rem 0 3rem 0;
-}
-
-.contact-area-form form .contact-area-form-text-area {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.contact-area-form form .btn-astro {
-  padding-left: 3rem;
-  padding-right: 3rem;
-  margin-top: 2rem;
-}
-
-/* ::15.0 Map Area Css */
-.map-area {
-  text-align: center;
-  height: 350px;
-  background-color: #222;
-  margin: 2rem 0;
-}
-
-/* :: 16.0 Office Info Css */
-.office-info-area {
-  text-align: center;
-  padding-bottom: 1rem;
-}
-
-.office-info-area .our-package-area-title {
-  text-transform: capitalize;
-}
-
-.office-info-area .our-package-area-text {
-  color: #637988;
-  padding-bottom: 1rem;
-}
-
-.office-info-area .office-info-area-content .our-office-icon {
-  background-color: #006266;
-  border-radius: 50%;
-  padding: 1rem;
-  color: #fff;
-  width: 70px;
-  height: 70px;
-  line-height: 40px;
-  font-size: 1.2rem;
-  margin: 0 auto;
-  margin-bottom: 1rem;
-}
-
-.office-info-area .office-info-area-content .office-info-area-content-slide:hover .office-info-area-content-title {
-  color: #006266;
-}
-
-.office-info-area .office-info-area-content .office-info-area-content-slide .office-info-area-content-title {
-  -webkit-transition: 500ms;
-  -o-transition: 500ms;
-  transition: 500ms;
-}
-
-.office-info-area .office-info-area-content .office-info-area-content-slide .office-info-area-content-text {
-  color: #637988;
-  margin-bottom: 0;
-}
-
-/* ::  14.0 Our Team Area CSS */
-.our-company-area {
-  text-align: center;
-  padding: 1rem;
-}
-
-.our-company-area .our-company-area-title {
-  padding-top: 1rem;
-}
-
-.our-company-area .our-company-area-content {
-  padding-top: 1rem;
-}
-
-.our-company-area .our-company-area-content .our-company-area-content-carusel {
-  padding-top: 3rem;
-}
-
-.our-company-area .our-company-area-content .our-company-right-side .our-company-right-side {
-  text-align: left;
-  color: #637988;
-  margin-bottom: .5rem;
-}
-
-/* ::  13.0 Our Team Area CSS */
-.our-team-area {
-  text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.our-team-area .our-team-area-title {
-  padding-bottom: 1rem;
-}
-
-.our-team-area .our-team-area-text {
-  padding-top: 2rem;
-  color: #637988;
-}
-
-.our-team-area .our-team-area-content {
-  padding-top: 1rem;
-}
-
-.our-team-area .our-team-area-content .card {
-  border-radius: .25rem;
-}
-
-.our-team-area .our-team-area-content .card .card-body {
-  padding: 0;
-}
-
-.our-team-area .our-team-area-content .card .card-body .card-image {
-  background-color: #006266;
-  width: 100%;
-  height: 200px;
-  padding: 0;
-  border-top-right-radius: .25rem;
-  border-top-left-radius: .25rem;
-  position: relative;
-}
-
-.our-team-area .our-team-area-content .card .card-body .card-image img {
-  bottom: 0;
-  position: absolute;
-  margin: auto;
-  left: 30%;
-}
-
-.our-team-area .our-team-area-content .card .card-body .card-image::after {
-  content: "";
-  position: absolute;
-  background-image: url(../images/s-cloud.png);
-  background-size: cover;
-  background-position: bottom;
-  left: 0;
-  bottom: -3px;
-  width: 100%;
-  height: 40px;
-}
-
-.our-team-area .our-team-area-content .card .card-body .our-team-card-info .our-team-card-info-title {
-  -webkit-transition: 500ms;
-  -o-transition: 500ms;
-  transition: 500ms;
-}
-
-.our-team-area .our-team-area-content .card .card-body .our-team-card-info .our-team-card-info-text {
-  color: #637988;
-}
-
-/* ::  0.6 Plans Area CSS */
-.plans-area {
-  text-align: center;
-  padding-bottom: 3rem;
-}
-
-.plans-area .plans-area-title {
-  text-transform: capitalize;
-}
-
-.plans-area .plans-area-text {
-  width: 90%;
-  margin: 0 auto;
-  color: #637988;
-  font-weight: 300;
-}
-
-.plans-area .plans-area-content {
-  padding-top: 2.5rem;
-  padding-right: 1rem;
-  padding-left: 1rem;
-}
-
-.plans-area .plans-area-content .plans-area-content-icon {
-  color: #006266;
-}
-
-.plans-area .plans-area-content .plans-area-content-title {
-  padding-top: 1rem;
-}
-
-.plans-area .plans-area-content .plans-area-content-text {
-  color: #637988;
-  font-weight: 300;
-}
-
 /* ::  10.0 Contact Area CSS */
 .footer-area {
   padding-top: 1rem;
@@ -18682,6 +18434,254 @@ p {
 
 .top-area .lang-area .top-area-lang-text {
   margin-right: .5rem;
+}
+
+.break-line {
+  box-shadow: 0 2px 17px 3px rgba(99, 121, 136, 0.2);
+  margin: 0 auto;
+  width: 80% !important;
+}
+
+.btn-astro {
+  color: #fff !important;
+  background-color: #006266;
+  border: #006266;
+}
+
+.btn-astro:hover {
+  background: rgba(0, 98, 102, 0.8);
+}
+
+p {
+  color: #637988;
+}
+
+/* ::  9.0 Contact Area CSS */
+.contact-area {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.contact-area .contact-area-title {
+  text-transform: capitalize;
+}
+
+.contact-area .contact-area-text {
+  color: #637988;
+  width: 90%;
+  margin: 0 auto;
+  font-weight: 300;
+}
+
+.contact-area .contact-area-btn {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 1rem;
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+}
+
+.contact-area-form {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.contact-area-form .contact-area-form-title {
+  padding-top: 1rem;
+}
+
+.contact-area-form form {
+  margin: 1rem 0 3rem 0;
+}
+
+.contact-area-form form .contact-area-form-text-area {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contact-area-form form .btn-astro {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-top: 2rem;
+}
+
+/* ::15.0 Map Area Css */
+.map-area {
+  text-align: center;
+  height: 350px;
+  background-color: #222;
+  margin: 2rem 0;
+}
+
+/* :: 16.0 Office Info Css */
+.office-info-area {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.office-info-area .our-package-area-title {
+  text-transform: capitalize;
+}
+
+.office-info-area .our-package-area-text {
+  color: #637988;
+  padding-bottom: 1rem;
+}
+
+.office-info-area .office-info-area-content .our-office-icon {
+  background-color: #006266;
+  border-radius: 50%;
+  padding: 1rem;
+  color: #fff;
+  width: 70px;
+  height: 70px;
+  line-height: 40px;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.office-info-area .office-info-area-content .office-info-area-content-slide:hover .office-info-area-content-title {
+  color: #006266;
+}
+
+.office-info-area .office-info-area-content .office-info-area-content-slide .office-info-area-content-title {
+  -webkit-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms;
+}
+
+.office-info-area .office-info-area-content .office-info-area-content-slide .office-info-area-content-text {
+  color: #637988;
+  margin-bottom: 0;
+}
+
+/* ::  14.0 Our Team Area CSS */
+.our-company-area {
+  text-align: center;
+  padding: 1rem;
+}
+
+.our-company-area .our-company-area-title {
+  padding-top: 1rem;
+}
+
+.our-company-area .our-company-area-content {
+  padding-top: 1rem;
+}
+
+.our-company-area .our-company-area-content .our-company-area-content-carusel {
+  padding-top: 3rem;
+}
+
+.our-company-area .our-company-area-content .our-company-right-side .our-company-right-side {
+  text-align: left;
+  color: #637988;
+  margin-bottom: .5rem;
+}
+
+/* ::  13.0 Our Team Area CSS */
+.our-team-area {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.our-team-area .our-team-area-title {
+  padding-bottom: 1rem;
+}
+
+.our-team-area .our-team-area-text {
+  padding-top: 2rem;
+  color: #637988;
+}
+
+.our-team-area .our-team-area-content {
+  padding-top: 1rem;
+}
+
+.our-team-area .our-team-area-content .card {
+  border-radius: .25rem;
+}
+
+.our-team-area .our-team-area-content .card .card-body {
+  padding: 0;
+}
+
+.our-team-area .our-team-area-content .card .card-body .card-image {
+  background-color: #006266;
+  width: 100%;
+  height: 200px;
+  padding: 0;
+  border-top-right-radius: .25rem;
+  border-top-left-radius: .25rem;
+  position: relative;
+}
+
+.our-team-area .our-team-area-content .card .card-body .card-image img {
+  bottom: 0;
+  position: absolute;
+  margin: auto;
+  left: 30%;
+}
+
+.our-team-area .our-team-area-content .card .card-body .card-image::after {
+  content: "";
+  position: absolute;
+  background-image: url(../images/s-cloud.png);
+  background-size: cover;
+  background-position: bottom;
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  height: 40px;
+}
+
+.our-team-area .our-team-area-content .card .card-body .our-team-card-info .our-team-card-info-title {
+  -webkit-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms;
+}
+
+.our-team-area .our-team-area-content .card .card-body .our-team-card-info .our-team-card-info-text {
+  color: #637988;
+}
+
+/* ::  0.6 Plans Area CSS */
+.plans-area {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.plans-area .plans-area-title {
+  text-transform: capitalize;
+}
+
+.plans-area .plans-area-text {
+  width: 90%;
+  margin: 0 auto;
+  color: #637988;
+  font-weight: 300;
+}
+
+.plans-area .plans-area-content {
+  padding-top: 2.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.plans-area .plans-area-content .plans-area-content-icon {
+  color: #006266;
+}
+
+.plans-area .plans-area-content .plans-area-content-title {
+  padding-top: 1rem;
+}
+
+.plans-area .plans-area-content .plans-area-content-text {
+  color: #637988;
+  font-weight: 300;
 }
 
 /* ::  0.7 Domin Area CSS */
