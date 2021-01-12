@@ -1,0 +1,54 @@
+/* ::  11 Service Slide CSS */
+.services-slide-area {
+    padding-top: 1rem;
+    position: relative;
+
+    .services-slide-content {
+        padding-bottom: 2rem;
+        
+        .services-slide-img {
+            position: relative;
+
+            .services-slide-disc {
+                position: absolute;
+                background-color: $mainBg;
+                color: $white;
+                height: 90px;
+                width: 300px;
+                border-radius: .25rem;
+                bottom: 4.2rem;
+                right: 9.5rem;
+                display: flex;
+                padding-top: .5rem;
+
+                ul {
+                    text-transform: capitalize;
+                }
+            }
+        }
+        .services-slide-title {
+            margin-bottom: 1rem;
+            text-transform: capitalize;
+        }
+        .services-slide-text {
+            font-weight: 300;
+        }
+
+        .services-slide-navbar {
+            ul {
+                li {
+                    padding-left: .5rem !important;
+
+                    i {
+                        padding-right: .5rem !important;
+                        color: $green;
+                        font-size: 0.6rem;
+                    }
+                    .services-slide-text {
+
+                    }
+                }
+            }
+        }
+    }
+}

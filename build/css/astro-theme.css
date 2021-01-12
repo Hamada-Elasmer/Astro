@@ -6792,7 +6792,7 @@ readers do not read off random characters that represent icons */
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
-  --bs-pink: #d63384;
+  --bs-pink: #B33771;
   --bs-red: #dc3545;
   --bs-orange: #fd7e14;
   --bs-yellow: #ffc107;
@@ -6981,7 +6981,7 @@ pre {
 
 code {
   font-size: 0.875em;
-  color: #d63384;
+  color: #B33771;
   word-wrap: break-word; }
   a > code {
     color: inherit; }
@@ -12849,7 +12849,7 @@ textarea.form-control-lg {
   animation: load7 1.8s infinite ease-in-out; }
 
 .loader {
-  color: #dc3545;
+  color: #B33771;
   font-size: 6px;
   position: relative;
   -webkit-transform: translateZ(0);
@@ -12912,7 +12912,7 @@ textarea.form-control-lg {
 /* ::  0.3 Top Area CSS */
 .top-area {
   padding: .5rem 0;
-  background-color: #dc3545;
+  background-color: #B33771;
   z-index: 10;
   color: #fff;
   font-weight: 300; }
@@ -12954,10 +12954,10 @@ textarea.form-control-lg {
     transition-duration: 500ms;
     font-weight: 400; }
     .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-      color: #dc3545; }
+      color: #B33771; }
   .navbar-light .navbar-nav .show > .nav-link,
   .navbar-light .navbar-nav .nav-link.active {
-    color: #dc3545; }
+    color: #B33771; }
   .navbar-light .navbar-nav .btn {
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
@@ -12967,7 +12967,7 @@ textarea.form-control-lg {
 
 /* ::  0.5 Header Area CSS */
 .header-area {
-  background-color: #dc3545;
+  background-color: #B33771;
   color: #fff;
   padding-top: 3rem;
   position: relative;
@@ -13028,7 +13028,7 @@ textarea.form-control-lg {
     padding-right: 1rem;
     padding-left: 1rem; }
     .plans-area .plans-area-content .plans-area-content-icon {
-      color: #dc3545; }
+      color: #B33771; }
     .plans-area .plans-area-content .plans-area-content-title {
       padding-top: 1rem; }
     .plans-area .plans-area-content .plans-area-content-text {
@@ -13062,7 +13062,7 @@ textarea.form-control-lg {
         position: absolute;
         width: 100px;
         height: 100px;
-        background-color: #dc3545;
+        background-color: #B33771;
         color: #fff;
         border-radius: 50%;
         top: -40px;
@@ -13077,7 +13077,7 @@ textarea.form-control-lg {
         padding: 0;
         padding-bottom: 1.5rem; }
         .price-area .price-area-content .card .card-body .card-image {
-          background-color: #dc3545;
+          background-color: #B33771;
           width: 100%;
           height: 170px;
           padding: 0;
@@ -13142,11 +13142,11 @@ textarea.form-control-lg {
     -o-transition-duration: 500ms;
     transition-duration: 500ms; }
 
-/* ::  0.10 Contact Area CSS */
+/* ::  10.0 Contact Area CSS */
 .footer-area {
   padding-top: 1rem;
   padding-bottom: 7rem;
-  background-color: #dc3545;
+  background-color: #B33771;
   position: relative;
   color: #fff; }
   .footer-area::after {
@@ -13222,6 +13222,39 @@ textarea.form-control-lg {
       transition: 500ms;
       text-decoration: none; }
       .footer-area .footer-area-copy a:hover {
-        color: #dc3545; }
+        color: #B33771; }
+
+/* ::  11 Service Slide CSS */
+.services-slide-area {
+  padding-top: 1rem;
+  position: relative; }
+  .services-slide-area .services-slide-content {
+    padding-bottom: 2rem; }
+    .services-slide-area .services-slide-content .services-slide-img {
+      position: relative; }
+      .services-slide-area .services-slide-content .services-slide-img .services-slide-disc {
+        position: absolute;
+        background-color: #B33771;
+        color: #fff;
+        height: 90px;
+        width: 300px;
+        border-radius: .25rem;
+        bottom: 4.2rem;
+        right: 9.5rem;
+        display: flex;
+        padding-top: .5rem; }
+        .services-slide-area .services-slide-content .services-slide-img .services-slide-disc ul {
+          text-transform: capitalize; }
+    .services-slide-area .services-slide-content .services-slide-title {
+      margin-bottom: 1rem;
+      text-transform: capitalize; }
+    .services-slide-area .services-slide-content .services-slide-text {
+      font-weight: 300; }
+    .services-slide-area .services-slide-content .services-slide-navbar ul li {
+      padding-left: .5rem !important; }
+      .services-slide-area .services-slide-content .services-slide-navbar ul li i {
+        padding-right: .5rem !important;
+        color: #3bd825;
+        font-size: 0.6rem; }
 
 /*# sourceMappingURL=astro-theme.css.map */
