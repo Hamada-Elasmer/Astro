@@ -12817,6 +12817,13 @@ textarea.form-control-lg {
   margin: 0 auto;
   width: 80% !important; }
 
+.btn-astro {
+  color: #fff !important;
+  background-color: #B33771;
+  border: #B33771; }
+  .btn-astro:hover {
+    background: rgba(179, 55, 113, 0.8); }
+
 /* :: 0.1 Preloader CSS */
 #preloader {
   position: fixed;
@@ -12906,7 +12913,7 @@ textarea.form-control-lg {
   border-radius: 0.25rem;
   z-index: 1000; }
   #scrollUp:focus, #scrollUp:hover {
-    background-color: rgba(33, 37, 41, 0.7);
+    background-color: #212529;
     color: #fff; }
 
 /* ::  0.3 Top Area CSS */
@@ -13256,5 +13263,39 @@ textarea.form-control-lg {
         padding-right: .5rem !important;
         color: #3bd825;
         font-size: 0.6rem; }
+
+/* ::  12.0 Features Slide CSS */
+.our-features-area {
+  text-align: center;
+  padding-bottom: 1rem; }
+  .our-features-area .our-features-area-title {
+    padding-top: 2rem;
+    padding-bottom: 2rem; }
+  .our-features-area .our-features-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: left; }
+    .our-features-area .our-features-content .our-features-icon {
+      background-color: #B33771;
+      border-radius: 50%;
+      padding: 1rem;
+      color: #fff; }
+    .our-features-area .our-features-content .our-features-content-slide {
+      margin-left: .5rem; }
+      .our-features-area .our-features-content .our-features-content-slide:hover .our-features-content-slide-title {
+        color: #B33771; }
+      .our-features-area .our-features-content .our-features-content-slide .our-features-content-slide-title {
+        -webkit-transition: 500ms;
+        -o-transition: 500ms;
+        transition: 500ms; }
+      .our-features-area .our-features-content .our-features-content-slide .our-features-content-slide-text {
+        color: #637988; }
 
 /*# sourceMappingURL=astro-theme.css.map */

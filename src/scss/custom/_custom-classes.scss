@@ -6,3 +6,12 @@ $primary: $mainBg;
     margin: 0 auto;
     width: 80% !important;
 }
+.btn-astro {
+    color: $white !important;
+    background-color: $mainBg;
+    border: $mainBg;
+
+    &:hover {
+        background: rgba($mainBg, 0.8);
+    }
+}

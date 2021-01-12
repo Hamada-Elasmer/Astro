@@ -17,7 +17,7 @@
 
     &:focus,
     &:hover {
-        background-color: rgba($dark, 0.7);
+        background-color: $dark;
         color: $white;
     }
 }

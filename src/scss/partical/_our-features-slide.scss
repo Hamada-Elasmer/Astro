@@ -1,0 +1,38 @@
+/* ::  12.0 Features Slide CSS */
+.our-features-area {
+    text-align: center;
+    padding-bottom: 1rem;
+    .our-features-area-title {
+        padding-top: 2rem;
+        padding-bottom: 2rem
+    }
+    .our-features-content {
+        @include display-flex(flex);
+        @include align-items-center;
+        @include justify-content-center;
+        text-align: left;
+
+        .our-features-icon {
+            background-color: $mainBg;
+            border-radius: 50%;
+            padding: 1rem;
+            color: $white;
+        }
+        .our-features-content-slide {
+            margin-left: .5rem;
+            
+            &:hover {
+                .our-features-content-slide-title {
+                    color: $mainBg;
+                }
+            }
+            .our-features-content-slide-title {
+                @include transition(500ms);
+
+            }
+            .our-features-content-slide-text {
+                color: $gray;
+            }
+        }
+    }
+}
