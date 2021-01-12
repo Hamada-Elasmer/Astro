@@ -1,4 +1,4 @@
-/* ::  0.9 Contact Area CSS */
+/* ::  9.0 Contact Area CSS */
 .contact-area {
     padding: 3rem 0;
     text-align: center;
@@ -17,5 +17,26 @@
         padding-right: 2rem;
         margin-top: 1rem;
         @include transition-duration(500ms);
+    }
+}
+.contact-area-form {
+    padding-top: 1rem;
+    text-align: center;
+
+    .contact-area-form-title {
+        padding-top: 1rem;
+    }
+    form {
+        margin: 1rem 0 3rem 0;
+
+        .contact-area-form-text-area {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+        .btn-astro {
+            padding-left: 3rem;
+            padding-right: 3rem;
+            margin-top: 2rem;
+        }
     }
 }

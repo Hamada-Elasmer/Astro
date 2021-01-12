@@ -1,0 +1,40 @@
+/* :: 16.0 Office Info Css */
+.office-info-area {
+    text-align: center;
+    padding-bottom: 1rem;
+    .our-package-area-title {
+        text-transform: capitalize;
+    }
+    .our-package-area-text {
+        color: $gray;
+        padding-bottom: 1rem;
+    }
+    .office-info-area-content {
+        .our-office-icon {
+            background-color: $mainBg;
+            border-radius: 50%;
+            padding: 1rem;
+            color: $white;
+            width: 70px;
+            height: 70px;
+            line-height: 40px;
+            font-size: 1.2rem;
+            margin: 0 auto;
+            margin-bottom: 1rem;
+        }
+        .office-info-area-content-slide {
+            &:hover {
+                .office-info-area-content-title {
+                    color: $mainBg;
+                }
+            }
+            .office-info-area-content-title {
+                @include transition(500ms);
+            }
+            .office-info-area-content-text {
+                color: $gray;
+                margin-bottom: 0;
+            }
+        }
+    }
+}

@@ -23,7 +23,8 @@ function pugTask () {
 function sassTask () {
     return src(sassPath)
         .pipe(sourcemaps.init())
-        .pipe(sass({outputStyle: 'expand'}).on('error', sass.logError))
+        .pipe(concat('astro-theme.css'))
+        .pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
         .pipe(sourcemaps.write('.'))
         .pipe(dest('./build/css'))
 }
@@ -31,7 +32,7 @@ function sassTask () {
 function jsTask () {
     return src(jsPath)
         .pipe(sourcemaps.init())
-        .pipe(concat('astro.bundle.js'))
+        .pipe(concat('default.bundle.js'))
         .pipe(sourcemaps.write('.'))
         .pipe(dest('./build/js'));
 }
@@ -68,4 +69,4 @@ exports.imageTask = imageTask;
 exports.jsTask = jsTask;
 exports.jsbootstarp = jsbootstarp;
 exports.fontTask = fontTask;
-exports.default = series(parallel(pugTask, sassTask, jsTask);
+exports.default = series(parallel(pugTask, sassTask, jsTask), watchTask);
