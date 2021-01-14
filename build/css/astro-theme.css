@@ -17203,12 +17203,12 @@ fieldset:disabled .btn {
 
 .btn-astro {
   color: #fff !important;
-  background-color: #006266;
-  border: #006266;
+  background-color: #3369e7;
+  border: #3369e7;
 }
 
 .btn-astro:hover {
-  background: rgba(0, 98, 102, 0.8);
+  background: rgba(51, 105, 231, 0.8);
 }
 
 p {
@@ -17216,11 +17216,11 @@ p {
 }
 
 .primary-color {
-  color: #006266;
+  color: #3369e7;
 }
 
 .bg-primary {
-  background-color: #006266 !important;
+  background-color: #3369e7 !important;
 }
 
 /* :: 0.1 Preloader CSS */
@@ -17257,7 +17257,7 @@ p {
 }
 
 .loader {
-  color: #006266;
+  color: #3369e7;
   font-size: 6px;
   position: relative;
   -webkit-transform: translateZ(0);
@@ -17333,7 +17333,7 @@ p {
 /* ::  0.3 Top Area CSS */
 .top-area {
   padding: .5rem 0;
-  background-color: #006266;
+  background-color: #3369e7;
   z-index: 10;
   color: #fff;
   font-weight: 300;
@@ -17413,12 +17413,12 @@ p {
 }
 
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-  color: #006266;
+  color: #3369e7;
 }
 
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #006266;
+  color: #3369e7;
 }
 
 .navbar-light .navbar-nav .btn {
@@ -17433,7 +17433,7 @@ p {
 
 /* ::  0.5 Header Area CSS */
 .header-area {
-  background-color: #006266;
+  background-color: #3369e7;
   color: #fff;
   padding-top: 3rem;
   position: relative;
@@ -17531,7 +17531,7 @@ p {
 }
 
 .plans-area .plans-area-content .plans-area-content-icon {
-  color: #006266;
+  color: #3369e7;
 }
 
 .plans-area .plans-area-content .plans-area-content-title {
@@ -17591,7 +17591,7 @@ p {
   position: absolute;
   width: 100px;
   height: 100px;
-  background-color: #006266;
+  background-color: #3369e7;
   color: #fff;
   border-radius: 50%;
   top: -40px;
@@ -17619,7 +17619,7 @@ p {
 }
 
 .price-area .price-area-content .card .card-body .card-image {
-  background-color: #006266;
+  background-color: #3369e7;
   width: 100%;
   height: 170px;
   padding: 0;
@@ -17751,7 +17751,7 @@ p {
 .footer-area {
   padding-top: 1rem;
   padding-bottom: 7rem;
-  background-color: #006266;
+  background-color: #3369e7;
   position: relative;
   color: #fff;
 }
@@ -17901,7 +17901,7 @@ p {
 }
 
 .footer-area .footer-area-copy a:hover {
-  color: #006266;
+  color: #3369e7;
 }
 
 /* ::  11 Service Slide CSS */
@@ -17945,7 +17945,7 @@ p {
 
 .services-slide-area .services-slide-content .services-slide-img .services-slide-disc {
   position: absolute;
-  background-color: #006266;
+  background-color: #3369e7;
   color: #fff;
   height: 90px;
   width: 300px;
@@ -18049,7 +18049,7 @@ p {
 }
 
 .our-features-area .our-features-content .our-features-icon {
-  background-color: #006266;
+  background-color: #3369e7;
   border-radius: 50%;
   padding: 1rem;
   color: #fff;
@@ -18072,7 +18072,7 @@ p {
 }
 
 .our-features-area .our-features-content .our-features-content-slide:hover .our-features-content-slide-title {
-  color: #006266;
+  color: #3369e7;
 }
 
 .our-features-area .our-features-content .our-features-content-slide .our-features-content-slide-title {
@@ -18167,7 +18167,7 @@ p {
 }
 
 .our-team-area .our-team-area-content .card .card-body .card-image {
-  background-color: #006266;
+  background-color: #3369e7;
   width: 100%;
   height: 200px;
   padding: 0;
@@ -18339,7 +18339,7 @@ p {
 }
 
 .office-info-area .office-info-area-content .our-office-icon {
-  background-color: #006266;
+  background-color: #3369e7;
   border-radius: 50%;
   padding: 1rem;
   color: #fff;
@@ -18352,7 +18352,7 @@ p {
 }
 
 .office-info-area .office-info-area-content .office-info-area-content-slide:hover .office-info-area-content-title {
-  color: #006266;
+  color: #3369e7;
 }
 
 .office-info-area .office-info-area-content .office-info-area-content-slide .office-info-area-content-title {
@@ -18375,7 +18375,7 @@ p {
 }
 
 .blog .blog-auther a:hover {
-  color: #006266;
+  color: #3369e7;
 }
 
 .blog .sidebar-slide li {
@@ -18391,7 +18391,7 @@ p {
 }
 
 .blog .sidebar-slide li a:hover {
-  color: #006266;
+  color: #3369e7;
   padding-left: 1.5rem;
 }
 
@@ -18418,7 +18418,7 @@ p {
 }
 
 .single-blog .blog-post .blog-auther .blog-post-meta .auther-link:hover {
-  color: #006266;
+  color: #3369e7;
 }
 
 @media (max-width: 575.98px) {
@@ -18440,7 +18440,7 @@ p {
 }
 
 .single-blog .sidebar-slide li a:hover {
-  color: #006266;
+  color: #3369e7;
   padding-left: 1.5rem;
 }
 
@@ -18454,7 +18454,7 @@ p {
 }
 
 .single-blog .social-blog-comment .social-top a:hover, .single-blog .social-blog-comment .comment-replay a:hover {
-  color: #006266;
+  color: #3369e7;
 }
 
 @media (max-width: 575.98px) {
@@ -18466,19 +18466,19 @@ p {
 
 /* :: 18.0  Pagination Css */
 .page-link {
-  color: #006266;
+  color: #3369e7;
 }
 
 .page-link:hover, .page-link:focus {
   color: #fff;
-  background-color: #006266;
-  border-color: #006266;
+  background-color: #3369e7;
+  border-color: #3369e7;
 }
 
 .page-item.active .page-link {
   color: #fff;
-  background-color: #006266;
-  border-color: #006266;
+  background-color: #3369e7;
+  border-color: #3369e7;
 }
 
 /*# sourceMappingURL=astro-theme.css.map */
