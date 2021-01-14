@@ -5,6 +5,9 @@
     z-index: 10;
     color:$white;
     font-weight: 300;
+    @include media-breakpoint-down(xs) {
+        display: flex;
+    }
 
     .call-us,
     .mail-us {
@@ -25,7 +28,16 @@
         padding-right: .5rem;
     }
     .top-area-icon-text {
-
+        @include media-breakpoint-between(xs, sm)  {
+            display: none;
+        }
+        @include media-breakpoint-between(sm, md)  {
+            display: none;
+        }
+        @include media-breakpoint-between(md, lg)  {
+            display: inline-block;
+            font-size: .9rem;
+        }
     }
     .lang-area {
 

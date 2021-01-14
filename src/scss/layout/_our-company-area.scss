@@ -1,16 +1,41 @@
 /* ::  14.0 Our Team Area CSS */
 .our-company-area{
-    text-align: center;
-    padding: 1rem;
+        text-align: center;
+        padding: 1rem 0;
+
     .our-company-area-title {
         padding-top: 1rem;
     }
     .our-company-area-content {
         padding-top: 1rem;
+        @include media-breakpoint-between(xs, sm)  {
+            padding-top: 0;
+        }
+        @include media-breakpoint-between(sm, md)  {
+            padding-top: 0;
+        }
         .our-company-area-content-carusel {
-            padding-top: 3rem;
+            padding-top: 0;
+            @include media-breakpoint-between(xs, sm)  {
+                padding-top: .5rem ;
+            }
+            @include media-breakpoint-between(sm, md) {
+                padding-top: .5rem ;
+            }
+            @include media-breakpoint-between(md, lg) {
+                padding-top: .5rem ;
+            }
         }
         .our-company-right-side {
+            @include media-breakpoint-between(xs, sm)  {
+                padding-top: 1rem;
+            }
+            @include media-breakpoint-between(sm, md) {
+                padding-top: 1rem;
+            }
+            @include media-breakpoint-between(md, lg) {
+                padding-top: .5rem ;
+            }
             .our-company-right-side {
                 text-align: left;
                 color: $gray;

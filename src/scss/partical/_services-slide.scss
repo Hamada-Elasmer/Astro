@@ -2,12 +2,25 @@
 .services-slide-area {
     padding-top: 1rem;
     position: relative;
+    @include media-breakpoint-between(xs, sm)  {
+        text-align: center;
+    }
+    @include media-breakpoint-between(sm, md)  {
+        padding-top: 0;
+        text-align: center;
+    }
 
     .services-slide-content {
         padding-bottom: 2rem;
         
         .services-slide-img {
             position: relative;
+            @include media-breakpoint-between(xs, sm)  {
+                margin-bottom: 1rem;;
+            }
+            @include media-breakpoint-between(sm, md)  {
+                margin-bottom: 1rem;
+            }
 
             .services-slide-disc {
                 position: absolute;
@@ -20,6 +33,15 @@
                 right: 9.5rem;
                 display: flex;
                 padding-top: .5rem;
+                @include media-breakpoint-between(xs, sm)  {
+                    right: 4.5rem;
+                }
+                @include media-breakpoint-between(sm, md)  {
+                    right: 7.5rem;
+                }
+                @include media-breakpoint-between(md, lg)  {
+                    right: -1.5rem;
+                }
 
                 ul {
                     text-transform: capitalize;
@@ -48,6 +70,14 @@
 
                     }
                 }
+            }
+            @include media-breakpoint-between(xs, sm)  {
+                text-align: left;
+                margin-left: 2rem;
+            }
+            @include media-breakpoint-between(sm, md)  {
+                text-align: left;
+                margin-left: 2rem;
             }
         }
     }

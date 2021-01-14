@@ -10,6 +10,9 @@
         padding-bottom: 1rem;
     }
     .office-info-area-content {
+        @include media-breakpoint-between(xs, sm)  {
+            margin-bottom: 1rem;
+        }
         .our-office-icon {
             background-color: $mainBg;
             border-radius: 50%;

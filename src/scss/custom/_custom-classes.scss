@@ -17,3 +17,9 @@ $primary: $mainBg;
 p {
     color: $gray;
 }
+.primary-color {
+    color: $mainBg;
+}
+.bg-primary {
+    background-color: $mainBg !important;
+}

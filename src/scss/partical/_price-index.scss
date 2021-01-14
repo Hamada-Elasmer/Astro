@@ -22,7 +22,9 @@
                 border: .4rem solid $white;
                 z-index: 1;
                 padding-top: .5rem;
-
+                @include media-breakpoint-between(xs, sm)  {
+                    left: 39%;
+                }
                 .price-card-top-title {
                     margin-bottom: 0;
                     color: $white !important;
@@ -41,6 +43,9 @@
                     border-top-right-radius: 0.5rem;
                     border-top-left-radius: 0.5rem;
                     position: relative;
+                    @include media-breakpoint-between(xs, sm)  {
+                        height: 170px;
+                    }
                     
                     &::before {
                         content: "";
@@ -64,12 +69,20 @@
                         bottom: -3px;
                         width: 100%;
                         height: 40px;
+
+                        @include media-breakpoint-between(xs, sm)  {
+                            height: 0;
+                        }
                     }
                     img {
                         bottom: 0;
                         position: absolute;
                         margin: auto;
                         left: 30%;
+                        @include media-breakpoint-between(xs, sm)  {
+                            left: 38%;
+                            bottom: 0;
+                        }
                     }
                 }
                 .price-area-navbar {

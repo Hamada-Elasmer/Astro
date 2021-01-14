@@ -1,0 +1,17 @@
+/* :: 18.0  Pagination Css */
+.page-link {
+    color: $mainBg;
+
+    &:hover, &:focus {
+        color: $white;
+        background-color: $mainBg;
+        border-color:  $mainBg;
+      }
+}
+.page-item {
+    &.active .page-link {
+        color: $white;
+        background-color: $mainBg;
+        border-color:  $mainBg;
+    }
+}

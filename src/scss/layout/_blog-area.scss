@@ -1,0 +1,106 @@
+/* :: 17.0  Blog Area Css */
+.blog {
+    .blog-auther {
+        a {
+            text-decoration: none;
+            color: rgba($dark, .8);
+            font-size: .95rem;
+            transition: color .5s;
+
+            &:hover {
+                color: $mainBg;
+            }
+        }
+    }
+    .sidebar-slide {
+
+        li {
+            margin: .25rem 0;
+            a {
+                text-decoration: none;
+                color: rgba($dark, .8);
+                font-size: .95rem;
+                transition: color .5s, padding-left .5s;
+                padding: 0 1rem;
+        
+                &:hover {
+                    color: $mainBg;
+                    padding-left: 1.5rem;
+                }
+            }
+        }
+        
+    }
+}
+
+.single-blog {
+    .blog-post {
+        @include media-breakpoint-between(xs, sm)  {
+            padding-bottom: 0 !important;
+        }
+        .blog-title {
+            @include media-breakpoint-between(xs, sm)  {
+                padding-top: .5rem;
+                margin-bottom: 0;
+            }
+        }
+        .blog-auther {
+            .blog-post-meta {
+                .auther-link {
+                    text-decoration: none;
+                    color: rgba($dark, .8);
+                    font-size: .95rem;
+                    @include transition(500ms);
+    
+                    &:hover {
+                        color: $mainBg;
+                    }
+                }
+            }
+        }
+        .blog-content {
+            @include media-breakpoint-between(xs, sm)  {
+                margin-top: 0 !important;
+            }
+        }
+    }
+    .sidebar-slide {
+
+        li {
+            margin: .25rem 0;
+            a {
+                text-decoration: none;
+                color: rgba($dark, .8);
+                font-size: .95rem;
+                transition: color .5s, padding-left .5s;
+                padding: 0 1rem;
+        
+                &:hover {
+                    color: $mainBg;
+                    padding-left: 1.5rem;
+                }
+            }
+        }
+        
+    }
+    .social-blog-comment {
+        .social-top , .comment-replay {
+            a {
+                text-decoration: none;
+                color: rgba($dark, .8);
+                font-size: .95rem;
+                @include transition(500ms);
+
+                &:hover {
+                    color: $mainBg;
+                }
+            }
+        }
+    }
+    h5 {
+        @include media-breakpoint-between(xs, sm)  {
+            padding-bottom: .5rem;
+            margin-top: 0;
+        }
+    }
+}

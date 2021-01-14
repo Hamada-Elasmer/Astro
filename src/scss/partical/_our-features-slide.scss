@@ -4,12 +4,19 @@
     padding-bottom: 1rem;
     .our-features-area-title {
         padding-top: 2rem;
-        padding-bottom: 2rem
+        padding-bottom: 2rem;
+        @include media-breakpoint-between(xs, sm) {
+            padding-top: 1.5rem;
+            padding-bottom: 1rem;
+        }
     }
     .our-features-content {
         @include display-flex(flex);
         @include align-items-center;
         @include justify-content-center;
+        @include media-breakpoint-between(xs, sm) {
+            padding-left: 2rem;
+        }
         text-align: left;
 
         .our-features-icon {
@@ -17,9 +24,15 @@
             border-radius: 50%;
             padding: 1rem;
             color: $white;
+            @include media-breakpoint-between(xs, sm) {
+                margin-top: -1rem;
+            }
         }
         .our-features-content-slide {
             margin-left: .5rem;
+            @include media-breakpoint-between(xs, sm) {
+                margin-left: 1rem;
+            }
             
             &:hover {
                 .our-features-content-slide-title {
@@ -33,6 +46,9 @@
             }
             .our-features-content-slide-text {
                 color: $gray;
+                @include media-breakpoint-between(sm, md)  {
+                    font-size: .9rem;
+                }
             }
         }
     }

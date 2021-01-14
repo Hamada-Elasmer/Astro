@@ -23,7 +23,7 @@ function pugTask () {
 function sassTask () {
     return src(sassPath)
         .pipe(sourcemaps.init())
-        .pipe(concat('astro-theme.css'))
+        // .pipe(concat('astro-theme.css'))
         .pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
         .pipe(sourcemaps.write('.'))
         .pipe(dest('./build/css'))
