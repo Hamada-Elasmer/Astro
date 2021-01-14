@@ -23,7 +23,7 @@
 - Add Your Color in  _custom-variables.scss in the name of $mainBg 
 - Add Your Font in  _custom-variables.scss in the name of $astroFont
 - Add Your Color Of Text in _custom-variables.scss in the name of  $gray
-- To Edit Jquery code in astro.js 
+- To Edit and add Jquery code in astro.js 
 
 at the end run your terminal $gulp 
     And You have the template with your color and your font 
