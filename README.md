@@ -5,8 +5,7 @@
 
 - Template Author: Hamada Elasmer
 
-- Template Author URL: https://www.facebook.com/hamada.elasmer.14
-
+- Template Author URL: [Here](https://www.facebook.com/hamada.elasmer.14).
 - Version: 1.0.0
 
 - Last Update: Jan 20, 2021
